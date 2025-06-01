@@ -2,12 +2,12 @@
 ## Authors: Harel Markel & Eyal Yemini
 
 ## Table of Contents
-1. [Overview](#overview)
-2. [Compile and Run](#compile-and-run)
-3. [Usage Options](#usage-options)
-4. [Technical Implementation](#technical-implementation)
-5. [Algorithms](#algorithms)
-6. [Answers](#answers)
+1. [Overview](#-overview)
+2. [Compile and Run](#-compile-and-run)
+3. [Usage Options](#-usage-options)
+4. [Technical Implementation](#-technical-implementation)
+5. [Algorithms](#-algorithms)
+6. [Answers](#-answers)
 
 ---
 
