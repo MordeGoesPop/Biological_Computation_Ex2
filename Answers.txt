@@ -1,0 +1,16 @@
+Question 1:
+a) Look code
+b) Look at out/ folder
+c) 5, n=6 is too large O(2**(6^2)) and too much memory we have 16GB memory, the computer will crash
+d) For n=6 my computer basicaly crashed, But lets calculate this:
+For n=4 we have n*(n-1)=4*3=12 possible edges -> 2^12=4096 possible graphs.
+It took 29ms=0.029s to calculate this with my algorithm in CPP meaning:
+Time/Graphs="Aproximate time per Graph" -> "Time per Graph"=0.029s/4096=7.08e-6s
+Meaning for n=6 -> 2^(6*5)=2^30 possible graphs hence:
+Time(n=6)=(7.08e-6s)*2^30=7602s=2.1h
+Time(n=7)=(7.08e-6s)*2^(7*6)=8650.5h
+
+*This is aproximate and actualy will be longer because the bigger the graph the londer the time to compute so Time per Graph is not constant 7.08e-6s
+
+Question 2:
+Look at code in src/GenSubGraphs.cpp in function findMotifsInGraph()
