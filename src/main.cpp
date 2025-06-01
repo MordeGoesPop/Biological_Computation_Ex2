@@ -146,13 +146,17 @@ int main()
     vector<Graph> motifs_graph_n;
 
     do {
+        DEBUG("To exit press Ctrl+C");
         INFO("Enter a question to answer (1 or 2): ");
         cin >> question;
         INFO("Enter the number of vertices (n): ");
         cin >> n;
 
         if (n <= 0 || question < 1 || question > 2)
-            ERROR("Invalid input, please enter (n > 0), (question = 1 || question = 2)");
+        {
+            WARNING("Invalid input, please enter (n > 0), (question = 1 || question = 2)");
+            continue;
+        }
 
         if (n <= 5) // Limit to n <= 5 to avoid excessive computation
         {
